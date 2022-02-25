@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        div{
+            text-align: center;
+            width: 600px;
+            height: 330px;
+            background-color: aquamarine;
+            margin-left: 31%;
+            border: 20px solid blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Review our site.</h1>
+    <div>
+        <form action="thankyou.html">
+            <label>NAME: </label><br>
+            <input type="text" name="name">
+            <br><br>
+            <label>EMAIL</label><br>
+            <input type="email" name="email">
+            <br><br>
+            <label for="rating">HOW MUCH WILL YOU GIVE US ON THE SCALE OF 5
+            </label><br>
+            <input list="rating">
+            <datalist id="rating">
+                <option value="1">1 star</option>
+                <option value="2">2 star</option>
+                <option value="3">3 star</option>
+                <option value="4">4 star</option>
+                <option value="5">5 star</option>
+            </datalist><br><br>
+            <label>EXPERIENCE WITH US: </label> 
+            <select name="exp">
+                <option value="poor">Poor</option>
+                <option value="avg">Average</option>
+                <option value="good">Good</option>
+                <option value="ex">Excellent</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>  
+    </div>  
+</body>
+</html>
