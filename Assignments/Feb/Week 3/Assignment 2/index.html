@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>menu bar</title>
+
+    <style>
+      div h1 {
+        color: brown;
+      }
+
+      div > div {
+        background-color: aqua;
+      }
+
+      div + div {
+        background-color: aqua;
+      }
+
+      span ~ span {
+        color: blueviolet;
+      }
+
+      #firstdiv {
+        width: 30%;
+        float: left;
+        text-align: center;
+      }
+      #secdiv {
+        width: 70%;
+        float: right;
+        height: 51px;
+        text-align: center;
+        padding-top: 30px;
+      }
+
+      #home {
+        margin-right: 20px;
+        color: blueviolet;
+      }
+      #project {
+        margin-right: 20px;
+      }
+      #emp {
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="firstdiv">
+        <h1>My Portfolio</h1>
+      </div>
+
+      <div id="secdiv">
+        <span id="home">Home</span>
+        <span id="project">My projects</span>
+        <span id="emp">Employment history</span>
+        <span id="conctact">Contact me</span>
+      </div>
+    </div>
+  </body>
+</html>
