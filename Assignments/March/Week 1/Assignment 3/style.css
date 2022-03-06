@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.head{
+    width: 100%;
+    height: 60px;
+    background-color: #DAFFED;
+    color: #545FD5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* padding-top: 10px; */
+    font-size: 20px;
+
+}
+
+/* .buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+input{
+    border-radius: 10%;
+    font-size: 30px;
+    color: #7f5539;
+    background-color: #e5989b;
+} */
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+hr{
+    border: 5px solid blueviolet;
+}
+
+
+.animals{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+
+.nature{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.architecture{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
